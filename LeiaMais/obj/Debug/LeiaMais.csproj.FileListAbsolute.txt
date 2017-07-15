@@ -1,0 +1,88 @@
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\LeiaMais.dll.config
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\LeiaMais.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\LeiaMais.pdb
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\EntityFramework.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\EntityFramework.SqlServer.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Helpers.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Mvc.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Razor.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Webpages.Deployment.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Webpages.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Webpages.Razor.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\EntityFramework.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\EntityFramework.SqlServer.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Razor.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Webpages.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Webpages.Deployment.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Webpages.Razor.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Helpers.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\System.Web.Mvc.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.csprojResolveAssemblyReference.cache
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.pdb
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.Migrations.primeira.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.csproj.GenerateResource.Cache
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\WebMatrix.Data.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\WebMatrix.WebData.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\WebMatrix.Data.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\WebMatrix.WebData.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.Migrations.segunda.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\Ninject.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\Ninject.Web.Common.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\Ninject.Web.Mvc.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\WebActivatorEx.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\Ninject.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\Ninject.Web.Common.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\bin\Ninject.Web.Mvc.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.Migrations.terceira.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.Migrations.voltasemContato.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais\LeiaMais\obj\Debug\LeiaMais.Migrations.porfavor.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\LeiaMais.dll.config
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\LeiaMais.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\LeiaMais.pdb
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\EntityFramework.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\EntityFramework.SqlServer.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Ninject.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Ninject.Web.Common.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Ninject.Web.Mvc.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Helpers.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Mvc.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Razor.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Webpages.Deployment.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Webpages.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Webpages.Razor.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\WebActivatorEx.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\WebMatrix.Data.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\WebMatrix.WebData.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\EntityFramework.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\EntityFramework.SqlServer.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Ninject.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Ninject.Web.Common.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Ninject.Web.Mvc.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\WebMatrix.Data.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\WebMatrix.WebData.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Razor.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Webpages.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Webpages.Deployment.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Webpages.Razor.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Helpers.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\System.Web.Mvc.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.csprojResolveAssemblyReference.cache
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.primeira.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.segunda.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.terceira.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.voltasemContato.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.porfavor.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.csproj.GenerateResource.Cache
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.pdb
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.Contato.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.UsuarioContato.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\ImageResizer.dll
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\ImageResizer.xml
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.imagens.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.curtida.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.curtidaquant.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.comentario.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\obj\Debug\LeiaMais.Migrations.SemComentario.resources
+C:\Users\lande\OneDrive\Documentos\Visual Studio 2013\Projects\LeiaMais - Copia\LeiaMais\bin\Microsoft.Web.Infrastructure.dll

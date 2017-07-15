@@ -1,0 +1,96 @@
+﻿@model LeiaMais.Models.BuscaLivrosModel
+
+<div class="row">
+
+    <div class="col-sm-12">
+        <br /><h4>Filtrar Por:</h4>
+        <div class="row">
+            @using (Html.BeginForm("Busca", "Livro", FormMethod.Get))
+            {
+
+
+                <div class="col-sm-2">
+                    @Html.LabelFor(b => b.LivroId, "")
+                    @Html.DropDownListFor(b => b.LivroId,
+                      new SelectList(Model.Livros, "Id", "Nome"), "Nome", new { @class = "form-control", })<br />
+                </div>
+                <div class="col-sm-2">
+                    @Html.LabelFor(b => b.ValorMinimo, "")
+                    @Html.TextBoxFor(b => b.ValorMinimo, new { @class = "form-control", @placeholder = "Valor Mínimo" })<br />
+                </div>
+                <div class="col-sm-2">
+                    @Html.LabelFor(b => b.ValorMaximo, "")
+                    @Html.TextBoxFor(b => b.ValorMaximo, new { @class = "form-control", @placeholder = "Valor Máximo" })
+                </div>
+                <div class="col-sm-2">
+                    @Html.LabelFor(b => b.CategoriaId, "")
+                    @Html.DropDownListFor(b => b.CategoriaId,
+                    new SelectList(Model.Categorias, "Id", "Nome"), "Categorias", new { @class = "form-control" })<br />
+                </div>
+                <div class="col-sm-2">
+
+                    @Html.LabelFor(b => b.UsuarioId, "")
+                    @Html.DropDownListFor(b => b.UsuarioId,
+                    new SelectList(Model.UsuarioContatos, "Contatos.UsuarioId", "Contatos.Usuario.Nome"), "Contatos", new { @class = "form-control" })
+                </div>
+
+
+                <input type="submit" class="btn btn-primary" value="Buscar" />
+            }
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-12">
+        <h3>Livros à venda:</h3><br />
+        @foreach (var l in Model.Livros)
+        {
+            <div style="float : left; padding-left: 2em;">
+                <div class="panel panel-info">
+                    <div class="panel-heading"><h4>Titulo: @l.Nome</h4></div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h4>Autor: @l.Autor</h4>
+                                <h4>Categoria: @l.Categoria.Nome</h4>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown">
+                                        <h4>Descrição <span class="caret"></span></h4>
+
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        @l.Descricao
+                                    </div>
+                                </div>
+                                <h4>Valor: R$ @l.Valor</h4>
+                                <h4>Vendedor: @Html.ActionLink(@l.Usuario.Nome, "Index", "Perfil", new { id = l.UsuarioId }, null)</h4>
+                                <h4>E-mail: @l.Usuario.Email</h4>
+                                <h4>@Html.ActionLink("Detalhes", "Detalhes", new { livroId = l.Id })</h4>
+
+                            </div>
+                            <div class="col-sm-6">
+                                @if (l.url == null)
+                                {
+                                    <img src="\Content\Uploads\semlivro.png" class="img-thumbnail" alt="Cinque Terre" width="236" height="304">
+                                }
+                                else
+                                {
+                                    <img src="\content\uploads\@l.url" class="img-thumbnail img-responsive" alt="Cinque Terre" width="236" height="304">
+                                }
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+
+
+

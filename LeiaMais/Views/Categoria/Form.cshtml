@@ -1,0 +1,11 @@
+﻿@model LeiaMais.Entidades.Categoria
+<h2>Formulario de categorias</h2>
+@using (Html.BeginForm("Adiciona", "Categoria", FormMethod.Post))
+{
+    @Html.LabelFor(c => c.Nome, "Nome")
+    @Html.TextBoxFor(c => c.Nome, new { @class="form-control" })
+    @Html.ValidationMessageFor(c => c.Nome)
+    
+    <input type="submit" class="btn btn-primary" value="Cadastrar" />
+}
+

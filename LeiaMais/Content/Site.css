@@ -1,0 +1,71 @@
+﻿input{
+    margin: 0.5em;
+}
+
+input[type=submit]{
+    background-color: rgb(66,139,202);
+    border:0;
+    padding: .5em;
+    color: white;
+}
+
+select {
+    margin: 0.5em 0.5em 0;
+    padding: .5em;
+}
+
+.field-validation-error {
+    padding: 0.5em;
+    width: 100%;
+    display: block;
+    color: red;
+}
+
+.input-validation-error{
+    background-color: #ffd6d6;
+}
+
+aside ul{
+    padding: 0;
+}
+
+aside ul li{
+    list-style-type: none;
+    margin: .5em 1em;
+}
+
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #337ab7;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #337ab7 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel{
+    max-width: 450px;
+}
+

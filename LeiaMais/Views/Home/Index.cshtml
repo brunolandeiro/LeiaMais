@@ -1,0 +1,136 @@
+﻿@model LeiaMais.Models.UsuarioModel
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h3>@ViewBag.usuario.Nome</h3>
+    <div class="row">
+        <div class="col-sm-8">
+            <h4 style="text-align: center;">Livros que desejo vender</h4>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var l in ViewBag.livro)
+                    {
+                        <tr>
+
+                            <td>@l.Nome</td>
+                            <td>@l.Categoria.Nome</td>
+                            <td>@l.Valor</td>
+
+                            <td>
+                                @Html.ActionLink("Remover", "Remover", new { id = l.Id })
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            @Html.ActionLink("Cadastrar Livros", "Form", "Livro", null, new { @class = "btn btn-primary" })
+        </div>
+        <div class="col-sm-4">
+            <br /><br />
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    Contatos:
+                </div>
+                <div class="panel-body">
+                    <table class="table table-responsive table-hover">
+                        @foreach (var c in ViewBag.contato)
+                        {
+                            <tr>
+
+                                
+                                @{ string rota = c.Contatos.Usuario.Nome;}
+                                <td>@Html.RouteLink(@rota, "Perfil", new { id = @c.Contatos.UsuarioId })</td>
+                                <td>@Html.ActionLink("Remover", "Remover", "Contato", new { id = c.Contatos.Id }, null)</td>
+
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+
+    <div class="page-header">
+
+        <h1 style="text-align: center">Compre, Venda e Troque livros!</h1>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>Formulario De Cadastro</h3>
+                        <div class="alert-success">@ViewBag.Sucesso</div>
+
+                        @using (Html.BeginForm("Adiciona", "Home", FormMethod.Post))
+                        {
+                            @Html.ValidationMessage("usuario.Invalido")
+
+                            @Html.LabelFor(u => u.Nome, "Nome:")
+                            @Html.TextBoxFor(u => u.Nome, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(u => u.Nome)<br />
+
+                            @Html.LabelFor(u => u.Email, "E-mail:")
+                            @Html.TextBoxFor(u => u.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(u => u.Email)<br />
+
+                            @Html.LabelFor(u => u.Senha, "Senha:")
+                            @Html.PasswordFor(u => u.Senha, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(u => u.Senha)<br />
+
+                            @Html.LabelFor(u => u.ConfirmacaoSenha, "Confirme a senha:")
+                            @Html.PasswordFor(u => u.ConfirmacaoSenha, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(u => u.ConfirmacaoSenha)<br />
+
+                            <input type="submit" class="btn btn-primary" value="Cadastrar" />
+                        }
+
+                    </div><!--Fim do cadastro-->
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>Login</h3>
+                        <form action="@Url.Action("Autentica", "Home")" method="post">
+                            @Html.ValidationMessage("login.Invalido", new { @class = "alert-danger" })
+
+                            <label for="login">E-mail:</label>
+                            <input id="login" type="text" name="login" class="form-control" />
+                            <br />
+
+                            <label for="senha">Senha:</label>
+                            <input id="senha" type="password" name="senha" class="form-control" />
+
+                            <br />
+                            <input type="submit" class="btn btn-primary" value="Autenticar" />
+                        </form>
+                    </div>
+                </div>
+            </div><!--Fim do login-->
+            <div class="col-sm-1"></div>
+
+        </div><!--Fim da row-->
+
+    </div>
+}
+
+
+
+

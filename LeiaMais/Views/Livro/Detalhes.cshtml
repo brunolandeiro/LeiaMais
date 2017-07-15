@@ -1,0 +1,68 @@
+﻿
+<div class="page-header">
+    <h1>@ViewBag.Livro.Nome</h1>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        @if (ViewBag.Livro.url == null)
+        {
+            <img src="\Content\Uploads\semlivro.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        }
+        else
+        {
+            <img src="\content\uploads\@ViewBag.Livro.url" class="img-thumbnail img-responsive" alt="Cinque Terre" width="304" height="236">
+        }
+    </div>
+    <div class="col-sm-3">
+        <h3>Autor: </h3>
+        @if (@ViewBag.Livro.Autor != null)
+        {
+            <h4>@ViewBag.Livro.Autor</h4>
+        }
+        else
+        {
+            <h4>Sem Autor</h4>
+        }
+        <h3>Categoria:</h3>
+        @if (@ViewBag.Livro.Categoria.Nome != null)
+        {
+            <h4>@ViewBag.Livro.Categoria.Nome</h4>
+        }
+        else
+        {
+            <h4>Sem Categoria</h4>
+        }
+        <h3>Preço: </h3><h4>R$ @ViewBag.Livro.Valor</h4>
+        <h3>Vendedor:</h3>
+        @{ string rota = ViewBag.Livro.Usuario.Nome; }
+        <h4>@Html.RouteLink(@rota, "Perfil", new { id = @ViewBag.Livro.UsuarioId })</h4>
+        <h4>@ViewBag.Livro.Usuario.Email</h4>
+       
+        @if (ViewBag.VerificaCurtida)
+        {
+
+            <h4><span class="glyphicon glyphicon-thumbs-down "> </span>@Html.ActionLink(" Descurtir ", "Remover", "Curtida", new { livroId = @ViewBag.Livro.Id }, null)<span class="badge">@ViewBag.Curtidas</span></h4>
+        }
+        else
+        {
+            <h4> <span class="glyphicon glyphicon-thumbs-up"></span>@Html.ActionLink(" Curtir ", "Adicionar", "Curtida", new { livroId = @ViewBag.Livro.Id }, null)<span class="badge">@ViewBag.Curtidas</span></h4>
+        }
+    </div>
+
+
+    <div class="col-sm-4">
+        <div class="page-header">
+            <h2>Descrição</h2>
+        </div>
+        @if (ViewBag.Livro.Descricao != null)
+        {
+            @ViewBag.Livro.Descricao
+        }
+        else
+        {
+            <h4>Sem Descrição</h4>
+        }
+    </div>
+
+
+</div>
